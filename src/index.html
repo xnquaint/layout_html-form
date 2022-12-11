@@ -88,13 +88,16 @@
       <fieldset class="form__fieldset">
         <legend>An interesting fact about you!</legend>
 
-        <label class="form__label">
+        <div class="form__label">
           Do you love cats?
-          <input 
+          <label>
+            <input 
             type="radio" 
             name="doLoveCats"
             value="yes"
-          >Yes
+            >Yes
+          </label>
+          
           <label>
             <input 
               type="radio" 
@@ -102,7 +105,7 @@
               value="no"
             >No
           </label>  
-        </label>
+        </div>
         
         <label class="form__label">
           What is your favorite color?
